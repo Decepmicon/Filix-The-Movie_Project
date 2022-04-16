@@ -10,7 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Filix_The_Movie">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.signup.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main2" />
+        <activity
+            android:name=".ui.splashscreen.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
